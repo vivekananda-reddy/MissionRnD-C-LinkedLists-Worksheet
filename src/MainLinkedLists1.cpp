@@ -32,9 +32,10 @@ int main(){
 
 	//Test numberToLinkedList
 	
-
+	int num = 12345678;
+	struct node *head = numberToLinkedList(num);
 	//Test removeEveryKthNode
-
+	head=removeEveryKthNode(head, 3);
 	//Test sortLinkedList
 
 	//Test twodigitLinkedList
