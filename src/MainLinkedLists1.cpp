@@ -31,6 +31,8 @@ int main(){
 	//Test 012SortSll
 
 	//Test numberToLinkedList
+	int num = 0;
+	struct node *head = numberToLinkedList(num);
 
 	//Test removeEveryKthNode
 
